@@ -1,0 +1,9 @@
+# .gitignore
+
+# Python
+venv/
+__pycache__/
+db.sqlite3
+
+# Environment
+.env
