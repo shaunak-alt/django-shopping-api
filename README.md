@@ -102,6 +102,8 @@ Make a GET request to the search endpoint with a product query.
 ```bash
 curl "[http://127.0.0.1:8000/api/products/search/?q=organic+creamy+peanut+butter](http://127.0.0.1:8000/api/products/search/?q=organic+creamy+peanut+butter)"
 
+```
+
 ### Example Response
 
 The first request (cache miss) will be slower. Subsequent requests for the same query (cache hit) will be nearly instantaneous.
@@ -123,3 +125,4 @@ The first request (cache miss) will be slower. Subsequent requests for the same 
         "link": "[https://www.google.com/shopping/product/](https://www.google.com/shopping/product/)..."
     }
 ]
+```
